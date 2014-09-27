@@ -13,6 +13,7 @@
 		849440DC19D734A400DE2EAC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849440DB19D734A400DE2EAC /* Images.xcassets */; };
 		849440DF19D734A400DE2EAC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 849440DD19D734A400DE2EAC /* LaunchScreen.xib */; };
 		849440EB19D734A500DE2EAC /* TouchID_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849440EA19D734A500DE2EAC /* TouchID_SwiftTests.swift */; };
+		849440F519D734BA00DE2EAC /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 849440F419D734BA00DE2EAC /* LocalAuthentication.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		849440E419D734A400DE2EAC /* TouchID_SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchID_SwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		849440E919D734A500DE2EAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		849440EA19D734A500DE2EAC /* TouchID_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchID_SwiftTests.swift; sourceTree = "<group>"; };
+		849440F419D734BA00DE2EAC /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				849440F519D734BA00DE2EAC /* LocalAuthentication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +62,7 @@
 		849440C619D734A400DE2EAC = {
 			isa = PBXGroup;
 			children = (
+				849440F419D734BA00DE2EAC /* LocalAuthentication.framework */,
 				849440D119D734A400DE2EAC /* TouchID_Swift */,
 				849440E719D734A500DE2EAC /* TouchID_SwiftTests */,
 				849440D019D734A400DE2EAC /* Products */,
